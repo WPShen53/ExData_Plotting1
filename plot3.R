@@ -3,7 +3,7 @@ source("loadHPCData.R")
 plot3 <- function(data=NULL) {
     if(is.null(data)) data <- loadHPCData()
     
-    png("plot3.png", width=504, height=504)
+    png("plot3.png", width=480, height=480)
     
     plot(data$Time, data$Sub_metering_1, type="l", col="black",
          xlab="", ylab="Energy sub metering")

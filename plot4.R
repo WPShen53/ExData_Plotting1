@@ -3,7 +3,7 @@ source("loadHPCData.R")
 plot4 <- function(data=NULL) {
     if(is.null(data)) data <- loadHPCData()
     
-    png("plot4.png", width=504, height=504)
+    png("plot4.png", width=480, height=480)
 
     par(mfrow=c(2,2))
     # 1
